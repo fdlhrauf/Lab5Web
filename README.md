@@ -145,7 +145,7 @@ Perhatikan contoh di bawah ini.
 
 Pada kode di atas menjunjukkan bahwa, pada kondisi if, yang menginput nilai lebih dari sama dengan 60, maka akan lulus, sedangkan pada kondisi else, di bawah nilai 60 maka hasilnya tidak lulus.
 
-Dan ini contoh apabila kita menginput nilai 80
+Dan ini contoh apabila kita menginput nilai 98
 
 ![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/page_contohifelse.JPG)
 
@@ -155,7 +155,7 @@ Hasilnya akan lulus.
 
 ![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/hasil_ifelse.JPG)
 
-Sedangkan apabila kita menginput nilai di bawah 60, maka:
+Sedangkan apabila kita menginput nilai di bawah 50, maka:
 
 ![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/ifelse50.JPG) 
 
