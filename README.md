@@ -149,7 +149,7 @@ Dan ini contoh apabila kita menginput nilai 80
 
 ![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/page_contohifelse.JPG)
 
-![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/page_contohifelse2.JPG)
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/page_contohifelse.2.JPG)
 
 Hasilnya akan lulus.
 
