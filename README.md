@@ -94,28 +94,31 @@ Menggunakan tanda panah (=>);
 dan menggunakan Constructor.
 Contohnya:
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/html_pembuatanfungsi.JPG)
 
 Contoh di atas merupakan cara membuat fungsi dengan menggunakan cara biasa.
 
-Cara Memanggil Fungsi
-Memanggil fungsi dengan menuliskan nama fungsinya. Contohnya seperti kode di atas, berarti memanggil fungsi dengan nama fungsi pesan().
-Memanggil fungsi melalui atribut event pada HTML. Seperti contoh kode di atas, memanggil fungsi dengan event onload yang merupakan event ketika element atau halaman di buka.
+# Cara Memanggil Fungsi
+1. Memanggil fungsi dengan menuliskan nama fungsinya. Contohnya seperti kode di atas, berarti memanggil fungsi dengan nama fungsi pesan().
+2. Memanggil fungsi melalui atribut event pada HTML. Seperti contoh kode di atas, memanggil fungsi dengan event onload yang merupakan event ketika element atau halaman di buka.
+
 Jadi, pada contoh di atas memanggil fungsi dengan cara nomer 2 (dua).
 
-Operasi Dasar Aritmatika pada Javascript
-Operator adalah simbol yang digunakan untuk melakukan operasi pada suatu nilai dan variabel.
-Operator Aritmatika merupakan operator yang biasa digunakan pada operasi perhitungan matematis.
-Operator aritmatika terdiri dari:
-Penjumlahan, simbolnya ( + )
-Pengurangan, simbolnya ( - )
-Perkalian, simbolnya ( * )
-Pemangkatan, simbolnya ( ** )
-Pembagian, simbolnya ( / )
-Modulus, simbolnya ( % )
+# Operasi Dasar Aritmatika pada Javascript
+* Operator adalah simbol yang digunakan untuk melakukan operasi pada suatu nilai dan variabel.
+* Operator Aritmatika merupakan operator yang biasa digunakan pada operasi perhitungan matematis.
+
+# Operator aritmatika terdiri dari:
+1. Penjumlahan, simbolnya ( + )
+2. Pengurangan, simbolnya ( - )
+3. Perkalian, simbolnya ( * )
+4. Pemangkatan, simbolnya ( ** )
+5. Pembagian, simbolnya ( / )
+6. Modulus, simbolnya ( % )
+
 Contoh:
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/html_operasidasarartimatika.JPG)
 
 Pada contoh kode di atas, menggunakan fungsi, dan untuk melakukan perhitungan aritmatika, kita menggunakan variabel. Variabel pada kode di atas adalah val1 dan val2. Untuk val1 = 9 dan val2 = 4.
 
@@ -123,11 +126,11 @@ Kemudian pada bagian tag <body> terdapat event pada Javascript, yaitu onclick ya
 
 Dan hasilnya:
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/aritmatika.JPG)
 
 Nah, pada gambar di atas dinamakan event onclick dengan value "aritmethic, apabila kita meng-klik value tersebut, maka akan muncul hasil seperti di bawah ini:
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/hasil_aritmatika.JPG)
 
 Coba perhatikan pada operator modulus ( % )
 
@@ -138,29 +141,29 @@ if - else merupakan salah satu bentuk percabangan pada Javascript.
 Percabangan if - else merupakan percabangan yang memiliki dua blok pilihan. Pilihan pertama untuk kondisi benar, dan pilihan kedua untuk kondisi salah (else).
 Perhatikan contoh di bawah ini.
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/html_contohifelse.JPG)
 
 Pada kode di atas menjunjukkan bahwa, pada kondisi if, yang menginput nilai lebih dari sama dengan 60, maka akan lulus, sedangkan pada kondisi else, di bawah nilai 60 maka hasilnya tidak lulus.
 
 Dan ini contoh apabila kita menginput nilai 80
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/page_contohifelse.JPG)
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/page_contohifelse2.JPG)
 
 Hasilnya akan lulus.
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/hasil_ifelse.JPG)
 
 Sedangkan apabila kita menginput nilai di bawah 60, maka:
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/ifelse50.JPG) 
 
 hasilnya menunjukkan tidak lulus.
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/ifelsetidaklulus.JPG)
 
-Penggunaan Operator switch
+# Penggunaan Operator switch
 Salah satu bentuk peracabangan selain if - else yaitu percabangan swtich/case.
 Percabangan switch/case adalah bentuk lain dari percabangan if/else/if.
 Pada percabangan switch kita dapat membuat blok kode (case) sebanyak yang diinginkan di dalam blok switch.
@@ -168,41 +171,41 @@ Setiap case harus diakhiri dengan break. Khusus untuk default, tidak perlu diakh
 Pemberian break bertujuan agar program berhenti mengecek case berikutnya saat sebuah case terpenuhi.
 Contohnya:
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/html_operatorswitch.JPG)
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/html_operatorswitch.2.JPG)
 
 Pada kode program di atas, kita akan menginput nilai 1-5.
 
 Dan ini kita menggunakan event onclick.
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/operator_switch.JPG)
 
-Kemudian apabila di klik, maka akan muncul tampilan seperti ini, misalnya kita akan menginput nilai 4.
+Kemudian apabila di klik, maka akan muncul tampilan seperti ini, misalnya kita akan menginput nilai 5.
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/page_switch.JPG)
 
 Maka, hasilnya akan seperti ini.
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/hasil_switch.JPG)
 
 Pembuatan Form Input
 Pada pembuatan form input Javascript, hampir sama dengan pembuatan form pada HTML.
 
 Contohnya seperti berikut.
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/form_input.JPG)
 
 Hasilnya, kita disuruh menginput pada form yang tersedia, seperti di bawah ini.
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/genap.JPG)
 
-Pembuatan Form Button Pada objek document
+# Pembuatan Form Button Pada objek document
 Objek document adalah model dari dokumen HTML. Objek ini berisi kumpulan fungsi dan atribut berupa objek dari elemen HTML.
 Di dalam objek document, terdapat fungsi-fungsi dan atribut yang bisa kita gunakan untuk memanipulasi dokumen HTML.
 Perhatikan contoh kode program berikut ini.
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/html_formbutton.JPG)
 
 Pada kode di atas, terdapat fungsi document.bgColor yang digunakan untuk memberikan warna pada background page, sedangkan fungsi document.fgColor digunakan untuk memberikan warna untuk tulisan pada page.
 
@@ -210,30 +213,31 @@ Selain itu, kode di atas merupakan kode untuk membuat sebuah form, dengan input 
 
 Dan ini hasilnya defaultnya:
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/form_button.JPG)
 
 Dan seperti ini tampilan apabila kita meng-klik tombol button "Latar Belakang Hijau.
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/ubah_warnabuttonhijau.JPG)
 
 Tampilan Latar Belakang Putih
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/ubah_warnabuttonputih.JPG)
 
 Tampilan "Teks Kuning"
 
-enter image description here
+![imga](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/ubah_warnabuttonkuning.JPG)
 
 Tampilan "Teks Biru
 
-enter image description here
+![imga](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/ubah_warnabuttonbiru.JPG)
 
-HTML DOM
+# HTML DOM
 DOM merupakan singkatan dari Document Object Model. Artinya, dokumen (HTML) yang dimodelkan dalam sebuah objek.
 Objek dari dokumen ini menyediakan sekumpulan fungsi dan atribut/data yang bisa kita manfaatkan dalam membuat program Javascript. Inilah yang disebut API (Application Programming Interface).
+
 Perhatikan contoh berikut ini.
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/html_daftarmenu.JPG)
 
 Pada contoh di atas merupakan sebuah program untuk membuat daftar menu makanan dengan menggunakan checkbox, yang apabila kita men-ceklist pada daftar menu tersebut, maka akan muncul total harga yang harus di bayar.
 
@@ -243,43 +247,36 @@ fungsi document.getElementById() yang merupakan fungsi untuk memilih elemen berd
 fungsi parseInt merupakan fungsi untuk mengubah String menjadi Integer atau mengubah kebilangan bulat. Artinya jika bilangan didalamnya mengandung desimal maka akan dikonversikan ke bilangan bulat.
 Dan hasilnya seperti ini.
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/daftar_menu2.JPG)
 
 Misalnya kita men-ceklist menu makanan "Ayam Goreng dan "Tempe Goreng dengan masing-masing harga yang sudah ditentukan, maka akan muncul total harga yang harus dibayar, yaitu Rp. 5.500
 
-enter image description here
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/daftar_menu.JPG)
 
-Tugas Praktikum 5
+# Tugas Praktikum 5
 Buat script untuk melakukan validasi pada isian form.
 
 Jawaban:
 Persiapan membuat dokumen HTML terlebih dahulu dan dilanjut menambahkan kode seperti di bawah ini.
-enter image description here
+
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/html_validasi.JPG)
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/html_validasi2.JPG)
 
 Penjelasan kode
 Di sini kita memerintahkan untuk menjalankan function validasi() saat form di submit. onSubmit=”validasi()”
-
-enter image description here
-
 dimana function validasi() sudah kita buat untuk mengecek inputan.
-
-enter image description here
-
-kita menangkap nilai value dari form input. dan memasukkannya ke dalam variabel.
-
-enter image description here
-
-dan kemudian mengecek masing-masing variabel.
-
-enter image description here
+kita menangkap nilai value dari form input. dan memasukkannya ke dalam variabel, dan kemudian mengecek masing-masing variabel.
 
 Jika nama, email dan alamat di isi. atau tidak kosong. maka akan di kembalikan nilai TRUE pada form agar dapat di teruskan. jika tidak maka tampilkan pesan alert yang menampilkan “Anda harus mengisi data dengan lengkap !”.
 
 Kemudian tambahkan CSS.
-enter image description here
+
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/html_stylecss.JPG)
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/html_stylecss2.JPG)
 
 Dan hasilnya seperti berikut ini.
-enter image description here
+
+![imag](https://github.com/fdlhrauf/Lab5Web/blob/main/Images/validasiform.JPG)
 
 
 
